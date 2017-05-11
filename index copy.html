@@ -1,0 +1,63 @@
+<style>
+
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: #f0f;
+}
+
+.timeline ul li::after {
+  content: '';
+  position: absolute;
+  left: 1%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+}
+</style>
+
+<h1> About Me </h1>
+<section  class = 'timeline'>
+  <ul>
+    <li>
+      <div>
+        <time>2012</time>
+        Passed my 12th
+      </div>
+    </li>
+
+    <li>
+      <div>
+        <time>2012</time>
+        Passed my college
+      </div>
+    </li>
+
+    <li>
+      <div>
+        <time>2012</time>
+        worked at Avalon
+      </div>
+    </li>
+
+    <li>
+      <div>
+        <time>2012</time>
+        Admitted to Northeastern
+      </div>
+    </li>
+
+    <li>
+      <div>
+        <time>2012</time>
+        got a job at xyz
+      </div>
+    </li>
+  </ul>
+</section>
