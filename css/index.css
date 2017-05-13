@@ -1,0 +1,49 @@
+@font-face {
+  font-family: workFont;
+  src: url(uploads/font-awesome-4.7.0/fonts/fontawesome-webfont.woff);
+}
+
+.body{
+  background-color: #f1f1f2;
+}
+
+
+.styleLinks{
+  width : 33%;
+  height : 15%;
+  /*color : #a1d6e2;*/
+  background-color: #bcbabe;
+  margin : auto;
+  text-align: center;
+  font-family: workFont;
+  /*padding: 1%;*/
+}
+.displayImage{
+  /*margin: 10px;*/
+  height: 45%;
+  width: 25%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  /*align-items: center;*/
+}
+
+.rightContent{
+  float: right;
+  margin:2%;
+}
+.leftContent{
+  float: left;
+  margin-left: 2%
+}
+.styleLinksChild{
+  padding: 10%;
+}
+.introduction{
+  margin: auto;
+  width:15%;
+  font-variant: small-caps;
+}
+#workLink{
+  font-family: workFont;
+}
