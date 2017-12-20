@@ -5,6 +5,9 @@ header{
 body{
   margin: 2px;
   background-color: #f8f9f7;
+  display: flex;
+  min-height : 100vh;
+  flex-direction : column;
 }
 .right, .name{
   display: inline-block;
@@ -41,7 +44,24 @@ main{
   text-transform: uppercase;
   border: solid 1px;
 }
-
+footer{
+	background-color: #e9ece5;
+}
+#container{
+	flex : 1;
+}
+.footerLink{
+	display : inline-block;
+	width : 15%;
+	text-align : center;
+	padding : 20px;
+}
+a{
+	color: inherit;
+}
+a:visited{
+	color:inherit;
+}
 
 
 .bold-text{
