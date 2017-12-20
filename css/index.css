@@ -39,10 +39,10 @@ main{
 }
 .navLinks{
   display: inline-block;
-  width: 19%;
+  width: 32%;
   text-align: center;
   text-transform: uppercase;
-  border: solid 1px;
+  /* border: solid 1px; */
 }
 footer{
 	background-color: #e9ece5;
@@ -61,6 +61,15 @@ a{
 }
 a:visited{
 	color:inherit;
+}
+section{
+  display: inline-block;
+  width: 70%;
+  float: left;
+}
+aside{
+  display: inline-block;
+  width: 28%;
 }
 
 
