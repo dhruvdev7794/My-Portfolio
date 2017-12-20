@@ -1,52 +1,71 @@
-@font-face {
-  font-family: workFont;
-  src: url(uploads/font-awesome-4.7.0/fonts/fontawesome-webfont.woff);
+header{
+  height: 30%;
+  background-color: #e9ece5;
 }
-
-.body{
-  background-color: #f1f1f2;
+body{
+  margin: 2px;
+  background-color: #f8f9f7;
 }
-
-.styleLinks{
-  width : 33%;
-  height : 15%;
-  /*color : #a1d6e2;*/
-  background-color: #bcbabe;
-  text-align: center;
-  font-family: workFont;
+.right, .name{
   display: inline-block;
-  /*padding: 1%;*/
-}
-
-.left{
-  width : 45%;
-  display: inline-block;
+  float: left
 }
 .right{
-  width : 45%;
-  display: inline-block;
+  width:40%;
 }
-
+.name{
+  width: 50%;
+  height: 100%;
+  font-size: 70px;
+  color: #3b3a36;
+}
 .displayImage{
-  /*margin: 10px;*/
-  height: 45%;
-  /* width: 25%; */
-  display: block;
-  
   border-radius: 50%;
-  /*align-items: center;*/
-}
+  height:100%;
+  margin-left: 20px;
 
-.styleLinksChild{
-  padding: 10%;
 }
 .introduction{
-  align: "center";
-  width:33%;
-  font-variant: small-caps;
+  font-size: 20px;
+  clear: both;
+  color: #3b3a36;
+  margin: 20px;
 }
-#workLink{
-  font-family: workFont;
+main{
+  margin: 20px;
+}
+.navLinks{
+  display: inline-block;
+  width: 19%;
+  text-align: center;
+  text-transform: uppercase;
+  border: solid 1px;
+}
+
+
+
+.bold-text{
+  font-weight: bold;
+}
+.italic-text{
+  font-style: italic;
+}
+.right-align{
+  float: right;
+}
+.navContent{
+  display: none;
+}
+
+
+
+
+
+.clickImage{
+  height : 20%;
+}
+.styleLinksChild{
+  padding: 10%;
 }
 
 a:link{
