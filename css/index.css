@@ -19,8 +19,11 @@ body{
 .name{
   width: 50%;
   height: 100%;
-  font-size: 70px;
   color: #3b3a36;
+}
+.nameHeading{
+  font-size: 80px;
+  padding-bottom: 20px;
 }
 .displayImage{
   border-radius: 50%;
@@ -37,22 +40,16 @@ body{
 main{
   margin: 20px;
 }
-.navLinks{
-  display: inline-block;
-  width: 32%;
-  text-align: center;
-  text-transform: uppercase;
-  /* border: solid 1px; */
-}
 footer{
 	background-color: #e9ece5;
 }
 #container{
-	flex : 1;
+  flex : 1;
+  padding: 10px;
 }
 .footerLink{
 	display : inline-block;
-	width : 15%;
+	width : 30%;
 	text-align : center;
 	padding : 20px;
 }
@@ -63,29 +60,36 @@ a{
 a:visited{
 	color:inherit;
 }
-section{
-  display: inline-block;
-  width: 70%;
-  float: left;
-}
-aside{
-  display: inline-block;
-  width: 28%;
-}
 
 .navTabs{
-  background-color: #e9ece5;
-  border: solid 1px;
+  display: inline-block;
+  width: 25%;
+  float: left;
+  margin-right: 10px;
+}
+.rightContent{
+  display: inline-block;
+  width: 70%
+
 }
 .navLinks{
+  display: block;
   background-color: inherit;
   border: none;
+  height: 10%;
+  border-bottom: solid 2px;;
   outline: none;
   cursor: pointer;
   transition: 0.3s;
   font-size: 17px;
-  margin: 0px;
-  padding: 0px;
+  text-align: left;
+  widows: 100%;
+  text-transform: uppercase;
+  width: 100%;
+  /* border: solid 1px; */
+}
+.resume{
+  display: inline-block;
 }
 
 
