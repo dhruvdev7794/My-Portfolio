@@ -8,6 +8,7 @@
 </head>
 <body>
 	<div id = "container">
+  <!-- header part of the site -->
 	<header>
 		<figure class='right'>
 		<img class="displayImage" src="images/profile.png"/>
@@ -17,18 +18,20 @@
 	</header>
 	<p class="introduction"> I am a student at Northeastern University and have previously worked as a Software Developer Trainee for one year at Avalon Information Systems. I am actively looking for an internship for the summer </p>
 	<main>
+    <!-- left part of the screen with the main content -->
 		<section>
-			<nav>
-			<a class="navLinks" onclick="openTab('education')" id="defaultOpen"> Education & Academic Projects</a>
-			<a class="navLinks"> Work Experience & Technical Skills</a>
-			<a class="navLinks" onclick="openTab('interests')"> Interests </a>
-			</nav>
-			<br>
-			<br>
+      <!-- displays the navigatin bar -->
+			<div class ="navTabs">
+  			<button class="navLinks" onclick="openTab('education')" id="defaultOpen"> Education & Academic Projects</button>
+  			<button class="navLinks" onclick="openTab('work')"> Work Experience & Technical Skills</button>
+  			<button class="navLinks" onclick="openTab('interests')"> Interests </button>
+      </div>
+			<br><br><br>
 
-			<div id ="education" class = "navContent">
+      <!-- this is for displaying the education part -->
+  			<div id ="education" class = "navContent">
 				<h3> EDUCATION </h3>
-				<br>	
+				<br>
 				<span class="bold-text">Northeastern University</span>, Boston, MA <span class="right-align"> Sept. 2017 - Present</span>
 				<p>College Of Computer and Information Science</p>
 				<span class="italic-text">Candidate for Master Of Science in Computer Science</span>
@@ -51,20 +54,41 @@
 				</ul>
 			</div>
 
-			
+      <!-- this is for displaying the work and knowledge part -->
+      <div id = "work" class ="navContent">
+        <span class="bold-text">Avalon Information Systems</span>, New Delhi, India <span class="right-align"> July 2016 - July, 2017</span>
+        <span class="italic-text">Software Developer Trainee</span>
+        <ul>
+          <li>Upgraded application from CakePHP 2 to 3.</li>
+          <li>Overhauled the application to add support for multiple languages.</li>
+          <li>Developed APIs that were used by other in-house projects to link the while suite of products.</li>
+          <li>Developed APIs which closely linked the suite of products. The APIs also significantly reduced manual work.</li>
+          <li>Fortified the applications by fixing several bugs.</li>
+          <li>Implemented a part of functionality by using UN APIs to receive and display appropriate data and also publish data on the severs.</li>
+        </ul>
+        <br><br>
+        <span class="bold-text">Mera Medicare</span>, New Delhi, India <span class="right-align"> Feb. 2015 - April, 2015</span>
+        <span class="italic-text">Software Intern</span>
+        <ul>
+          <li>Designed an android application and organized a marketing event to promote startup brand.</li>
+        </ul>
+      </div>
 
+      <!-- this is for displaying the interests part -->
 			<div id="interests" class ="navContent">
 				<span class="bold-text">Youtube Channel : DD TEchTV (Co-creator)</span>
 				<span class="right-align"> June 2016 - Present</span>
 				<p>Post weekly videos on technology (tips and tricks) and device reviews with 800+ subscribers.</p>
 			</div>
 		</section>
+    <!-- right part of the screen with the calendar -->
 		<aside>
 			<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23e9ece5&amp;src=dhruvdev7794%40gmail.com&amp;color=%e9ece5&amp;ctz=America%2FNew_York" style="border-width:0; padding-left:20;" width="100%" height="50%" frameborder="0" scrolling="no"></iframe>
 		</aside>
 	</main>
-	
+
 	</div>
+  <!-- sticky footer in the end with the links -->
 	<footer>
 		<a class="footerLink" href="https://www.youtube.com/channel/UCqotUCTSpIxrNaBNVSrx9KA" target="_blank">
           <i class="fa fa-youtube fa-x" aria-hidden="true"></i>

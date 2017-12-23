@@ -57,6 +57,7 @@ footer{
 	padding : 20px;
 }
 a{
+  float: left;
 	color: inherit;
 }
 a:visited{
@@ -72,6 +73,21 @@ aside{
   width: 28%;
 }
 
+.navTabs{
+  background-color: #e9ece5;
+  border: solid 1px;
+}
+.navLinks{
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+  margin: 0px;
+  padding: 0px;
+}
+
 
 .bold-text{
   font-weight: bold;
@@ -84,8 +100,8 @@ aside{
 }
 .navContent{
   display: none;
+  clear: both;
 }
-
 
 
 
