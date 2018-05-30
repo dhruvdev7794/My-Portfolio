@@ -16,46 +16,48 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
           <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand color-white" href="#">Dhruv Sharma</a>
+      <a class="navbar-brand color-white" onclick="openTab('mainHead')" href="#mainHead">Dhruv Sharma</a>
       <div class="collapse navbar-collapse" id="navbarContent">
         <ul class="navbar-nav color-white">
-          <li class="nav-item"><a class="nav-link active" href="#">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#education">Education and Academics</a></li>
-          <li class="nav-item"><a class="nav-link" href="#work">Work Experience</a></li>
-          <li class="nav-item"><a class="nav-link" href="#skills">Technical Skills</a></li>
-          <li class="nav-item"><a class="nav-link" href="#resume">Resume/CV</a></li>
+          <li class="nav-item"><a class="nav-link active" onclick="openTab('mainHead')" href="#mainHead">About</a></li>
+          <li class="nav-item" onclick="openTab('education')"><a class="nav-link" href="#education">Education and Academics</a></li>
+          <li class="nav-item" onclick="openTab('work')"><a class="nav-link" href="#work">Work Experience</a></li>
+          <li class="nav-item" onclick="openTab('skills')"><a class="nav-link" href="#skills">Technical Skills</a></li>
+          <li class="nav-item" onclick="openTab('resume')"><a class="nav-link" href="#resume">Resume/CV</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <div class="container">
-    <div class="row">
-      <header class="col-12 col-md-8">
-        <h1>DHRUV <span class="color-red">SHARMA</span></h1>
-        <h3> BOSTON,MA </h3>
-        <h3> SHARMA.DH@HUSKY.NEU.EDU </h3>
-      </header>
-      <div class="col col-md-4">
-        <img src="./images/photo.jpg" alt="image of dhruv">
-    </div>
-  </div>
-  <br>
   <div class="container content">
-    <div class="row">
-      I am a student at Northeastern University pursuing Master of Science in Computer Science. 
-      I also hold a Bachelor’s degree in Information Technology from Guru Gobind Singh Indraprastha University.
+    <div id="mainHead" class="mainContent">
+      <div class="row">
+        <header class="col-12 col-md-8">
+          <h1>DHRUV <span class="color-red">SHARMA</span></h1>
+          <h3> BOSTON,MA </h3>
+          <h3> SHARMA.DH@HUSKY.NEU.EDU </h3>
+        </header>
+        <div class="col col-md-4">
+          <img src="./images/photo.jpg" alt="image of dhruv">
+        </div>
+      </div>
       <br>
-      I am proficient in Java and Python.
-      <br>
-      I have worked for one year at Avalon Information Systems as Software Developer Trainee for one year.  
-      I enhanced three projects using CakePHP(and PHP) and Angular (and JavaScript).
-      <br>
-      I have developed a Search Engine using Information Retrieval and a Pacman game using Artificial Intelligence algorithms while pursuing my Master’s degree. 
-      When I was pursuing my undergraduate degree, I developed two android application, namely, Quik Reminder and Vitamin M and did research on Data Materialization.
+    <!-- <div class="content"> -->
+      <div class="row">
+        I am a student at Northeastern University pursuing Master of Science in Computer Science. 
+        I also hold a Bachelor’s degree in Information Technology from Guru Gobind Singh Indraprastha University.
+        <br>
+        I am proficient in Java and Python.
+        <br>  
+        I have worked for one year at Avalon Information Systems as Software Developer Trainee for one year.  
+        I enhanced three projects using CakePHP(and PHP) and Angular (and JavaScript).
+        <br>
+        I have developed a Search Engine using Information Retrieval and a Pacman game using Artificial Intelligence algorithms while pursuing my Master’s degree. 
+        When I was pursuing my undergraduate degree, I developed two android application, namely, Quik Reminder and Vitamin M and did research on Data Materialization.
+      </div>
     </div>
-    <hr>
-    <div class="row" id="education">
+    <!-- <hr> -->
+    <div class="row mainContent" id="education">
       <h2 class="col-12 color-red">EDUCATION AND ACADEMICS</h2>
       <p class="col">
         Northeastern University, Boston, MA <span class="right-align"> Sept. 2017 - Present</span><br>
@@ -66,9 +68,56 @@
         Maharaja Surajmal Institute of Technology<br>
         Bachelor of Technology in Computer Science
       </p>
+      <hr>
+      <h2 class="col-12 color-red">Certifications (Coursera)</h2>
+      <a class="card certifications-card" style="background-color:  #F9E5E5;">
+        <div class="row">
+          <div class="col-1 d-inline-block">
+            <i class="fa fa-graduation-cap fa-3x" data="./documents/Coursera_Responsive.pdf"></i>
+          </div>
+          <div class="col-11 d-inline-block">
+            <h3>Advanced Styling with Responsive Design</h3>
+          </div>
+        </div>
+      </a>
+
+      <a class="card certifications-card" style="background-color:  #F9E5E5;">
+          <div class="row">
+            <div class="col-1 d-inline-block">
+              <i class="fa fa-graduation-cap fa-3x" data="./documents/Coursera_Responsive.pdf"></i>
+            </div>
+            <div class="col-11 d-inline-block">
+              <h3>Advanced Styling with Responsive Design</h3>
+            </div>
+          </div>
+        </a>
+
+
+        <a class="card certifications-card" style="background-color:  #F9E5E5;">
+            <div class="row">
+              <div class="col-1 d-inline-block">
+                <i class="fa fa-graduation-cap fa-3x" data="./documents/Coursera_Responsive.pdf"></i>
+              </div>
+              <div class="col-11 d-inline-block">
+                <h3>Advanced Styling with Responsive Design</h3>
+              </div>
+            </div>
+          </a>
+
+
+          <a class="card certifications-card" style="background-color:  #F9E5E5;">
+              <div class="row">
+                <div class="col-1 d-inline-block">
+                  <i class="fa fa-graduation-cap fa-3x" data="./documents/Coursera_Responsive.pdf"></i>
+                </div>
+                <div class="col-11 d-inline-block">
+                  <h3>Advanced Styling with Responsive Design</h3>
+                </div>
+              </div>
+            </a>
     </div>
-    <hr>
-    <div class="row" id="work">
+    <!-- <hr> -->
+    <div class="row mainContent" id="work">
       <h2 class="col-12 color-red">WORK EXPERIENCE</h2>
       <div class="col">
         Avalon Information Systems, New Delhi <span class="right-align"> July 2016 - July 2017</span><br>
@@ -90,8 +139,8 @@
         <br><br>
       </div>
     </div>
-    <hr>
-    <div class="row" id="skills">
+    <!-- <hr> -->
+    <div class="row mainContent" id="skills">
       <h2 class="col-12 color-red">TECHINCAL SKILLS</h2>
       <table class="table table-condensed">
         <tbody>
@@ -122,12 +171,12 @@
         </tbody>
       </table>
     </div>
-    <hr>
-    <div class="row" id="resume">
+    <!-- <hr> -->
+    <div class="row mainContent" id="resume">
       <h2 class="col-12 color-red">RESUME</h2>
       <iframe src="./documents/resume_dhruv.pdf"></iframe>
     </div>
-  </div>
+  <!-- </div> -->
 
   
   </div>
@@ -135,4 +184,5 @@
 <script src="js/jquery-3.3.1.slim.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/index.js"></script>
 </html>

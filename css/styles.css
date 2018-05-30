@@ -49,3 +49,12 @@ iframe{
     width: 100%;
     height: 95vh;
 }
+
+.certifications-card{
+    background-color:  #F9E5E5;
+    border: 0px;
+    margin: 5px;
+}
+/* #resume, #education, #work, #skills{
+    padding-top: 75px;
+  } */
