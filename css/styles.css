@@ -54,7 +54,14 @@ iframe{
     background-color:  #F9E5E5;
     border: 0px;
     margin: 5px;
+    display: block;
+    text-decoration: none;
+    color: inherit;
 }
-/* #resume, #education, #work, #skills{
+a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+#resume, #education, #work, #skills{
     padding-top: 75px;
-  } */
+}
