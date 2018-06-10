@@ -58,10 +58,18 @@ iframe{
     text-decoration: none;
     color: inherit;
 }
-a:hover{
-    text-decoration: none;
+a:link, a:visited, a:hover, a:active{
     color: inherit;
 }
-#resume, #education, #work, #skills{
+#mainHead, #education, #work, #skills{
     padding-top: 75px;
+}
+.card-style{
+    margin-bottom: 10px;
+    margin-top:10px;
+    background-color: #F5F5F5;
+}
+a{
+    text-decoration: none;
+    columns: inherit;
 }
